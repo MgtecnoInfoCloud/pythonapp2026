@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: pythonapp2026
+  description: Aplicação Python que mostra o host e as horas, chamado pythonapp2026
+  annotations:
+    github.com/project-slug: mgsantos89/pythonapp2026
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
